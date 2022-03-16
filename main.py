@@ -1,6 +1,6 @@
 #######################################
 #           The Talking Ben           #
-#       Created by Jakub Kłodnicki    #
+#       Created by Jakub Kłodnicki     #
 #               (Jacob)               #
 #######################################
 
@@ -15,7 +15,7 @@ client = discord.Client()
 @client.event
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
-
+    await client.change_presence(activity=discord.Game(name="write $help"))
 @client.event
 async def on_message(message):
     if message.author == client.user:
@@ -31,4 +31,4 @@ async def on_message(message):
             await message.channel.send('`$ben (question) - Give question to ben`')
             await message.channel.send('`$author - Bot author`') 
 
-client.run('Bot token here')
+client.run('OTUxOTg0MDc4NjYyNTMzMjIy.YivaQw.4odPlBT91yL2B0Nqu7wtKv4sH7M')
