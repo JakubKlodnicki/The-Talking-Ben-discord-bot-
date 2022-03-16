@@ -31,4 +31,4 @@ async def on_message(message):
             await message.channel.send('`$ben (question) - Give question to ben`')
             await message.channel.send('`$author - Bot author`') 
 
-client.run('OTUxOTg0MDc4NjYyNTMzMjIy.YivaQw.9zgPwLc86LmbsFvXuW6U5lw-p2s')
+client.run('Bot token here')
