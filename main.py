@@ -1,6 +1,6 @@
 #######################################
 #           The Talking Ben           #
-#       Created by Jakub Kłodnicki     #
+#       Created by Jakub Kłodnicki    #
 #               (Jacob)               #
 #######################################
 
