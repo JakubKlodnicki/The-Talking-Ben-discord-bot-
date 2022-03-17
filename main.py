@@ -1,6 +1,6 @@
 #######################################
 #           The Talking Ben           #
-#       Created by Jakub Kłodnicki     #
+#       Created by Jakub Kłodnicki    #
 #               (Jacob)               #
 #######################################
 
@@ -8,7 +8,7 @@
 import discord
 import random
 
-ben = ["Yes https://cdn.discordapp.com/attachments/887033566565912636/953998144268562472/yes.mp4", "No https://cdn.discordapp.com/attachments/887033566565912636/953998145317109770/no.mp4", "Ohohoohho https://cdn.discordapp.com/attachments/887033566565912636/953998144901877790/ohohoho.mp4", "Meeeeeh https://cdn.discordapp.com/attachments/887033566565912636/953998145673637929/meeeh.mp4"]
+ben = ["https://cdn.discordapp.com/attachments/887033566565912636/953998144268562472/yes.mp4", "https://cdn.discordapp.com/attachments/887033566565912636/953998145317109770/no.mp4", "https://cdn.discordapp.com/attachments/887033566565912636/953998144901877790/ohohoho.mp4", "https://cdn.discordapp.com/attachments/887033566565912636/953998145673637929/meeeh.mp4"]
 
 client = discord.Client()
 
@@ -31,4 +31,5 @@ async def on_message(message):
         await message.channel.send('`$ben (question) - Give question to ben`')
         await message.channel.send('`$author - Bot author`') 
 
-client.run('Token Here')
+client.run('OTUxOTg0MDc4NjYyNTMzMjIy.YivaQw.f956oy-QaTqbN4mvWCV46T1IOIs')
+
