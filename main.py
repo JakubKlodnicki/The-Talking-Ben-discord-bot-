@@ -24,10 +24,10 @@ async def on_message(message):
     if message.content.startswith('$ben '):
         await message.channel.send(random.choice(ben))
 
-    if message.content.startswith('$author'):
+    if message.content.startswith('$author '):
         await message.channel.send('My author is giga chad Jacob')
 
-    if message.content.startswith('$help'):
+    if message.content.startswith('$help '):
         await message.channel.send('`$ben (question) - Give question to ben`')
         await message.channel.send('`$author - Bot author`') 
 
